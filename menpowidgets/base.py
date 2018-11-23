@@ -1043,7 +1043,6 @@ def visualize_images(images, figure_size=(7, 7), browser_style='buttons',
     subclass) objects. The images can have a combination of different
     attributes, e.g. masked or not, landmarked or not, without multiple
     landmark groups and labels etc.
-
     Parameters
     ----------
     images : `list` of `menpo.image.Image` or subclass
@@ -1239,7 +1238,6 @@ def visualize_images(images, figure_size=(7, 7), browser_style='buttons',
 
     # Trigger initial visualization
     render_function({})
-
 
 def visualize_patches(patches, patch_centers, figure_size=(7, 7),
                       browser_style='buttons', custom_info_callback=None):
